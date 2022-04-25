@@ -20,8 +20,9 @@ export const Navbar = () => {
     const { auth } = useSelector(store => store)
     const dispatch = useDispatch()
     const navigate = useNavigate()
+    const baseUrl = `https://vijendra-mini-petboard-app.herokuapp.com`
     function signIn() {
-        window.location.href = "/signin"
+        window.location.href = baseUrl + "/signin"
     }
     function logOut(){
         localStorage.removeItem('token')
