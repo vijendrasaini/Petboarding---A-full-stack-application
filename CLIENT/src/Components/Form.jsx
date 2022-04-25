@@ -42,9 +42,9 @@ export const Form = () => {
     else
       setFormData({ ...formData, [name]: value })
   }
-
+  const baseUrl = `https://vijendra-mini-petboard-app.herokuapp.com`
   const postDataOnServer = async () => {
-    const response1 = await fetch(`http://localhost:7000/add`, {
+    const response1 = await fetch(`${baseUrl}/add`, {
       method: "POST",
       body: JSON.stringify({
         overview: {

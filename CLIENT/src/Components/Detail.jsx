@@ -8,9 +8,10 @@ export const Detail = () => {
 
     const { id } = useParams()
     const [petHouse, setPetHouse] = useState({})
+    const baseUrl = `https://vijendra-mini-petboard-app.herokuapp.com`
 
     const getData = async ()=>{
-        const res = await fetch(`http://localhost:7000/houses/${id}`)
+        const res = await fetch(`${baseUrl}/${id}`)
         const finalResult = await res.json()
         console.log({finalResult})
         setPetHouse(finalResult)

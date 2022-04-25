@@ -19,6 +19,7 @@ import { setAuth } from '../Redux/actionCreators';
 
 export const Account = () => {
     const dispatch = useDispatch()
+    const baseUrl = `https://vijendra-mini-petboard-app.herokuapp.com`
     const dummyUser = {
         email : '',
         password : ''
@@ -29,7 +30,7 @@ export const Account = () => {
         setUser({ ...user, [name] : value})
     }
     const signIn = async ()=>{
-        const url = `http://localhost:7000/signin`
+        const url = baseUrl + `signin`
         const response = await fetch(url,{
             method : "POST",
             body : JSON.stringify(user),
@@ -45,7 +46,7 @@ export const Account = () => {
         dispatch(setAuth(true))
     }
     const signUp = async ()=>{
-        const url = `http://localhost:7000/signup`
+        const url = baseUrl + `/signup`
         console.log(url)
         const response = await fetch(url,{
             method : "POST",

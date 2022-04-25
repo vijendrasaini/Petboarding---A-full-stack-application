@@ -24,22 +24,23 @@ export const Home = () => {
     const [ searchText, setSearchText] = useState("")
     let id = useRef(null)
     const dispatch = useDispatch()
+    const baseUrl = `https://vijendra-mini-petboard-app.herokuapp.com`
     const { dataArr: { petHouses, totalPages }, loding } = useSelector(store => store)
     useEffect(() => {
-        let url = `http://localhost:7000/pethouses`
+        let url = baseUrl + `/pethouses`
         dispatch(setData(url))
     }, [])
 
     const handleFilter = (e) => {
-        const url = `http://localhost:7000/pethouses?filter=${e.target.value}`
+        const url = baseUrl + `/pethouses?filter=${e.target.value}`
         dispatch(setData(url))
     }
     function handleSort({ target: { value } }) {
-        const url = `http://localhost:7000/pethouses?sortKey=${value[0]}&sortOrder=${value[1]}`
+        const url = baseUrl + `/pethouses?sortKey=${value[0]}&sortOrder=${value[1]}`
         dispatch(setData(url))
     }
     function handleSearch(searchText){
-        const url = `http://localhost:7000/pethouses?search=${searchText}`
+        const url = baseUrl + `/pethouses?search=${searchText}`
         dispatch(setData(url))
     }
     function debounce(e){
