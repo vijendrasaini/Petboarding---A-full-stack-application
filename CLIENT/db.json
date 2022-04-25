@@ -1,0 +1,587 @@
+[
+    {
+      "overview": {
+        "name": "Sylvia",
+        "city": "Kende",
+        "address": "56 Kenwood Junction",
+        "capacity": 47,
+        "costPerDay": 542,
+        "verified": false,
+        "rating": 0
+      },
+      "more": {
+        "noOfCaredPets": 168,
+        "acceptedPets": ["dog"],
+        "petSize": "01 05",
+        "noOfWalksPerDay": 28,
+        "outerAreaSize": "large",
+        "emergencyTransportFacility": false
+      }
+    },
+    {
+      "overview": {
+        "name": "Carlyle",
+        "city": "Gujba",
+        "address": "54989 Anniversary Road",
+        "capacity": 117,
+        "costPerDay": 937,
+        "verified": false,
+        "rating": 5
+      },
+      "more": {
+        "noOfCaredPets": 174,
+        "acceptedPets": ["cat"],
+        "petSize": "06 10",
+        "noOfWalksPerDay": 23,
+        "outerAreaSize": "medium",
+        "emergencyTransportFacility": true
+      }
+    },
+    {
+      "overview": {
+        "name": "Blayne",
+        "city": "Ciyun",
+        "address": "3 Morrow Parkway",
+        "capacity": 172,
+        "costPerDay": 425,
+        "verified": true,
+        "rating": 2
+      },
+      "more": {
+        "noOfCaredPets": 89,
+        "acceptedPets": [
+          "dog",
+          "cat"
+        ],
+        "petSize": "31 35",
+        "noOfWalksPerDay": 26,
+        "outerAreaSize": "small",
+        "emergencyTransportFacility": false
+      }
+    },
+    {
+      "overview": {
+        "name": "Adelaida",
+        "city": "Zuya",
+        "address": "3 Debs Place",
+        "capacity": 130,
+        "costPerDay": 681,
+        "verified": true,
+        "rating": 0
+      },
+      "more": {
+        "noOfCaredPets": 97,
+        "acceptedPets": ["rabbit"],
+        "petSize": "21 25",
+        "noOfWalksPerDay": 25,
+        "outerAreaSize": "medium",
+        "emergencyTransportFacility": true
+      }
+    },
+    {
+      "overview": {
+        "name": "Orville",
+        "city": "Fujioka",
+        "address": "93921 Tennessee Place",
+        "capacity": 70,
+        "costPerDay": 348,
+        "verified": false,
+        "rating": 3
+      },
+      "more": {
+        "noOfCaredPets": 130,
+        "acceptedPets": [
+          "cat",
+          "rabbit"
+        ],
+        "petSize": "11 15",
+        "noOfWalksPerDay": 11,
+        "outerAreaSize": "small",
+        "emergencyTransportFacility": false
+      }
+    },
+    {
+      "overview": {
+        "name": "Zolly",
+        "city": "Zásmuky",
+        "address": "1 Vernon Avenue",
+        "capacity": 177,
+        "costPerDay": 175,
+        "verified": false,
+        "rating": 5
+      },
+      "more": {
+        "noOfCaredPets": 17,
+        "acceptedPets": [
+          "cat",
+          "rabbit",
+          "dog"
+        ],
+        "petSize": "31 35",
+        "noOfWalksPerDay": 20,
+        "outerAreaSize": "medium",
+        "emergencyTransportFacility": true
+      }
+    },
+    {
+      "overview": {
+        "name": "Joelly",
+        "city": "Sonder",
+        "address": "1 Southridge Crossing",
+        "capacity": 15,
+        "costPerDay": 887,
+        "verified": true,
+        "rating": 3
+      },
+      "more": {
+        "noOfCaredPets": 198,
+        "acceptedPets": [
+          "rabbit",
+          "dog"
+        ],
+        "petSize": "26 30",
+        "noOfWalksPerDay": 29,
+        "outerAreaSize": "small",
+        "emergencyTransportFacility": false
+      }
+    },
+    {
+      "overview": {
+        "name": "Miller",
+        "city": "Chengxiang",
+        "address": "89 Comanche Street",
+        "capacity": 95,
+        "costPerDay": 389,
+        "verified": true,
+        "rating": 1
+      },
+      "more": {
+        "noOfCaredPets": 117,
+        "acceptedPets": ["dog"],
+        "petSize": "01 05",
+        "noOfWalksPerDay": 22,
+        "outerAreaSize": "medium",
+        "emergencyTransportFacility": true
+      }
+    },
+    {
+      "overview": {
+        "name": "Mercy",
+        "city": "Kasembon",
+        "address": "07541 Cascade Street",
+        "capacity": 56,
+        "costPerDay": 716,
+        "verified": false,
+        "rating": 3
+      },
+      "more": {
+        "noOfCaredPets": 185,
+        "acceptedPets": ["cat"],
+        "petSize": "06 10",
+        "noOfWalksPerDay": 23,
+        "outerAreaSize": "large",
+        "emergencyTransportFacility": false
+      }
+    },
+    {
+      "overview": {
+        "name": "Lydon",
+        "city": "Floreşti",
+        "address": "68706 Troy Parkway",
+        "capacity": 50,
+        "costPerDay": 629,
+        "verified": false,
+        "rating": 4
+      },
+      "more": {
+        "noOfCaredPets": 21,
+        "acceptedPets": [
+          "dog",
+          "cat"
+        ],
+        "petSize": "31 35",
+        "noOfWalksPerDay": 27,
+        "outerAreaSize": "medium",
+        "emergencyTransportFacility": true
+      }
+    },
+    {
+      "overview": {
+        "name": "Ruthanne",
+        "city": "Agudos",
+        "address": "620 Fairview Park",
+        "capacity": 62,
+        "costPerDay": 328,
+        "verified": false,
+        "rating": 2
+      },
+      "more": {
+        "noOfCaredPets": 79,
+        "acceptedPets": ["rabbit"],
+        "petSize": "21 25",
+        "noOfWalksPerDay": 17,
+        "outerAreaSize": "large",
+        "emergencyTransportFacility": false
+      }
+    },
+    {
+      "overview": {
+        "name": "Debbi",
+        "city": "Trondheim",
+        "address": "0 Manufacturers Lane",
+        "capacity": 151,
+        "costPerDay": 721,
+        "verified": false,
+        "rating": 1
+      },
+      "more": {
+        "noOfCaredPets": 142,
+        "acceptedPets": [
+          "cat",
+          "rabbit"
+        ],
+        "petSize": "11 15",
+        "noOfWalksPerDay": 22,
+        "outerAreaSize": "medium",
+        "emergencyTransportFacility": true
+      }
+    },
+    {
+      "overview": {
+        "name": "Kalina",
+        "city": "Zhuozishan",
+        "address": "97 Pearson Circle",
+        "capacity": 15,
+        "costPerDay": 981,
+        "verified": true,
+        "rating": 0
+      },
+      "more": {
+        "noOfCaredPets": 39,
+        "acceptedPets": [
+          "cat",
+          "rabbit",
+          "dog"
+        ],
+        "petSize": "31 35",
+        "noOfWalksPerDay": 23,
+        "outerAreaSize": "small",
+        "emergencyTransportFacility": false
+      }
+    },
+    {
+      "overview": {
+        "name": "Marillin",
+        "city": "Longxian",
+        "address": "65 Harper Junction",
+        "capacity": 100,
+        "costPerDay": 109,
+        "verified": false,
+        "rating": 5
+      },
+      "more": {
+        "noOfCaredPets": 116,
+        "acceptedPets": [
+          "rabbit",
+          "dog"
+        ],
+        "petSize": "26 30",
+        "noOfWalksPerDay": 27,
+        "outerAreaSize": "medium",
+        "emergencyTransportFacility": true
+      }
+    },
+    {
+      "overview": {
+        "name": "Morlee",
+        "city": "Nonohonis",
+        "address": "9460 Blaine Park",
+        "capacity": 193,
+        "costPerDay": 535,
+        "verified": false,
+        "rating": 2
+      },
+      "more": {
+        "noOfCaredPets": 111,
+        "acceptedPets": ["dog"],
+        "petSize": "01 05",
+        "noOfWalksPerDay": 28,
+        "outerAreaSize": "large",
+        "emergencyTransportFacility": false
+      }
+    },
+    {
+      "overview": {
+        "name": "Elinor",
+        "city": "Callanca",
+        "address": "928 Kenwood Terrace",
+        "capacity": 27,
+        "costPerDay": 673,
+        "verified": true,
+        "rating": 1
+      },
+      "more": {
+        "noOfCaredPets": 16,
+        "acceptedPets": ["cat"],
+        "petSize": "06 10",
+        "noOfWalksPerDay": 21,
+        "outerAreaSize": "medium",
+        "emergencyTransportFacility": true
+      }
+    },
+    {
+      "overview": {
+        "name": "Clarabelle",
+        "city": "Osieczany",
+        "address": "99939 Towne Alley",
+        "capacity": 176,
+        "costPerDay": 731,
+        "verified": false,
+        "rating": 1
+      },
+      "more": {
+        "noOfCaredPets": 93,
+        "acceptedPets": [
+          "dog",
+          "cat"
+        ],
+        "petSize": "31 35",
+        "noOfWalksPerDay": 8,
+        "outerAreaSize": "small",
+        "emergencyTransportFacility": false
+      }
+    },
+    {
+      "overview": {
+        "name": "Ivie",
+        "city": "Aipe",
+        "address": "43252 Pennsylvania Lane",
+        "capacity": 189,
+        "costPerDay": 937,
+        "verified": true,
+        "rating": 0
+      },
+      "more": {
+        "noOfCaredPets": 133,
+        "acceptedPets": ["rabbit"],
+        "petSize": "21 25",
+        "noOfWalksPerDay": 16,
+        "outerAreaSize": "medium",
+        "emergencyTransportFacility": true
+      }
+    },
+    {
+      "overview": {
+        "name": "Glynda",
+        "city": "Estrada",
+        "address": "6 Grasskamp Street",
+        "capacity": 67,
+        "costPerDay": 283,
+        "verified": false,
+        "rating": 5
+      },
+      "more": {
+        "noOfCaredPets": 180,
+        "acceptedPets": [
+          "cat",
+          "rabbit"
+        ],
+        "petSize": "11 15",
+        "noOfWalksPerDay": 29,
+        "outerAreaSize": "small",
+        "emergencyTransportFacility": false
+      }
+    },
+    {
+      "overview": {
+        "name": "Luis",
+        "city": "Broto",
+        "address": "88299 Westport Center",
+        "capacity": 37,
+        "costPerDay": 510,
+        "verified": true,
+        "rating": 5
+      },
+      "more": {
+        "noOfCaredPets": 56,
+        "acceptedPets": [
+          "cat",
+          "rabbit",
+          "dog"
+        ],
+        "petSize": "31 35",
+        "noOfWalksPerDay": 30,
+        "outerAreaSize": "medium",
+        "emergencyTransportFacility": true
+      }
+    },
+    {
+      "overview": {
+        "name": "Winnah",
+        "city": "Mingshui",
+        "address": "5 Knutson Avenue",
+        "capacity": 121,
+        "costPerDay": 100,
+        "verified": true,
+        "rating": 3
+      },
+      "more": {
+        "noOfCaredPets": 182,
+        "acceptedPets": [
+          "rabbit",
+          "dog"
+        ],
+        "petSize": "26 30",
+        "noOfWalksPerDay": 23,
+        "outerAreaSize": "small",
+        "emergencyTransportFacility": false
+      }
+    },
+    {
+      "overview": {
+        "name": "Terrijo",
+        "city": "Divnomorskoye",
+        "address": "74 Golden Leaf Center",
+        "capacity": 102,
+        "costPerDay": 121,
+        "verified": false,
+        "rating": 5
+      },
+      "more": {
+        "noOfCaredPets": 24,
+        "acceptedPets": ["dog"],
+        "petSize": "01 05",
+        "noOfWalksPerDay": 10,
+        "outerAreaSize": "medium",
+        "emergencyTransportFacility": true
+      }
+    },
+    {
+      "overview": {
+        "name": "Daryl",
+        "city": "Ambatolampy",
+        "address": "4020 Butterfield Way",
+        "capacity": 109,
+        "costPerDay": 553,
+        "verified": false,
+        "rating": 3
+      },
+      "more": {
+        "noOfCaredPets": 15,
+        "acceptedPets": ["cat"],
+        "petSize": "06 10",
+        "noOfWalksPerDay": 16,
+        "outerAreaSize": "large",
+        "emergencyTransportFacility": false
+      }
+    },
+    {
+      "overview": {
+        "name": "Rodrigo",
+        "city": "Wangliao",
+        "address": "2665 Northwestern Court",
+        "capacity": 13,
+        "costPerDay": 454,
+        "verified": true,
+        "rating": 2
+      },
+      "more": {
+        "noOfCaredPets": 175,
+        "acceptedPets": [
+          "dog",
+          "cat"
+        ],
+        "petSize": "31 35",
+        "noOfWalksPerDay": 13,
+        "outerAreaSize": "medium",
+        "emergencyTransportFacility": true
+      }
+    },
+    {
+      "overview": {
+        "name": "Shelba",
+        "city": "Dinājpur",
+        "address": "026 Merchant Drive",
+        "capacity": 184,
+        "costPerDay": 720,
+        "verified": true,
+        "rating": 3
+      },
+      "more": {
+        "noOfCaredPets": 34,
+        "acceptedPets": ["rabbit"],
+        "petSize": "21 25",
+        "noOfWalksPerDay": 28,
+        "outerAreaSize": "large",
+        "emergencyTransportFacility": false
+      }
+    },
+    {
+      "overview": {
+        "name": "Gavin",
+        "city": "Béja",
+        "address": "822 Spaight Drive",
+        "capacity": 163,
+        "costPerDay": 876,
+        "verified": true,
+        "rating": 4
+      },
+      "more": {
+        "noOfCaredPets": 70,
+        "acceptedPets": [
+          "cat",
+          "rabbit"
+        ],
+        "petSize": "11 15",
+        "noOfWalksPerDay": 16,
+        "outerAreaSize": "medium",
+        "emergencyTransportFacility": true
+      }
+    },
+    {
+      "overview": {
+        "name": "Arlen",
+        "city": "Puunage",
+        "address": "3093 Armistice Way",
+        "capacity": 156,
+        "costPerDay": 591,
+        "verified": false,
+        "rating": 4
+      },
+      "more": {
+        "noOfCaredPets": 183,
+        "acceptedPets": [
+          "cat",
+          "rabbit",
+          "dog"
+        ],
+        "petSize": "31 35",
+        "noOfWalksPerDay": 8,
+        "outerAreaSize": "small",
+        "emergencyTransportFacility": false
+      }
+    },
+    {
+      "overview": {
+        "name": "Maduram general store, khandhliya , Gura dhahar, Udaipurwati",
+        "city": "Jhujhunu",
+        "address": "Maduram general store, khandhliya , Gura dhahar, Udaipurwati",
+        "capacity": "4",
+        "costPerDay": "4",
+        "verified": "",
+        "rating": "4"
+      },
+      "more": {
+        "noOfCaredPets": "2",
+        "acceptedPets": [
+          "dog",
+          "cat",
+          "rabbit"
+        ],
+        "petSize": "11-15",
+        "noOfWalksPerDay": "2",
+        "outerAreaSize": "medium",
+        "emergencyTransportFacility": true
+      }
+    }
+  ]

@@ -1,0 +1,23 @@
+.detailTable table td{
+    font-weight: 500;
+    border: 1px solid black;
+    font-size: 15px;
+    padding: 4px 5px;
+    word-spacing: 2px;
+}
+.detailList ul li{
+    font-size: 17px;
+    font-weight: 500;
+}
+
+.detailList ul span{
+    font-style: italic;
+    background-color: black;
+    color: white;
+    padding: 2px 4px;
+    margin: 4px;
+}
+#houseName{
+    background-color: rgb(30, 198, 86);
+    padding: 2px 5px;
+}
