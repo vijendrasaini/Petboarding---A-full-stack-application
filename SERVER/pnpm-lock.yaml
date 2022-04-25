@@ -1,6 +1,7 @@
 lockfileVersion: 5.3
 
 specifiers:
+  '@heroku/buildpack-registry': ^1.0.1
   bcryptjs: ^2.4.3
   cors: ^2.8.5
   express: ^4.17.3
@@ -8,6 +9,7 @@ specifiers:
   mongoose: ^6.3.1
 
 dependencies:
+  '@heroku/buildpack-registry': 1.0.1
   bcryptjs: 2.4.3
   cors: 2.8.5
   express: 4.17.3
@@ -15,6 +17,16 @@ dependencies:
   mongoose: 6.3.1
 
 packages:
+
+  /@heroku/buildpack-registry/1.0.1:
+    resolution: {integrity: sha512-cbB6ND+unRk692jf1PctcoqnmuyifanTMtFStucXukkpyeI/QgXac5qJNb3g6yhHOObTghJBXi9Uzy1KBcnPgQ==}
+    engines: {node: '>= 8.0.0'}
+    dependencies:
+      node-fetch: 2.6.7
+      true-myth: 2.2.8
+    transitivePeerDependencies:
+      - encoding
+    dev: false
 
   /@types/node/17.0.25:
     resolution: {integrity: sha512-wANk6fBrUwdpY4isjWrKTufkrXdu1D2YHCot2fD/DfWxF5sMrVSA+KN7ydckvaTCh0HiqX9IVl0L5/ZoXg5M7w==}
@@ -434,6 +446,18 @@ packages:
     engines: {node: '>= 0.6'}
     dev: false
 
+  /node-fetch/2.6.7:
+    resolution: {integrity: sha512-ZjMPFEfVx5j+y2yF35Kzx5sF7kDzxuDj6ziH4FFbOp87zKDZNx8yExJIb05OGF4Nlt9IHFIMBkRl41VdvcNdbQ==}
+    engines: {node: 4.x || >=6.0.0}
+    peerDependencies:
+      encoding: ^0.1.0
+    peerDependenciesMeta:
+      encoding:
+        optional: true
+    dependencies:
+      whatwg-url: 5.0.0
+    dev: false
+
   /object-assign/4.1.1:
     resolution: {integrity: sha1-IQmtx5ZYh8/AXLvUQsrIv7s2CGM=}
     engines: {node: '>=0.10.0'}
@@ -577,11 +601,19 @@ packages:
     engines: {node: '>=0.6'}
     dev: false
 
+  /tr46/0.0.3:
+    resolution: {integrity: sha1-gYT9NH2snNwYWZLzpmIuFLnZq2o=}
+    dev: false
+
   /tr46/3.0.0:
     resolution: {integrity: sha512-l7FvfAHlcmulp8kr+flpQZmVwtu7nfRV7NZujtN0OqES8EL4O4e0qqzL0DC5gAvx/ZC/9lk6rhcUwYvkBnBnYA==}
     engines: {node: '>=12'}
     dependencies:
       punycode: 2.1.1
+    dev: false
+
+  /true-myth/2.2.8:
+    resolution: {integrity: sha512-ds6rEGLDgVZZId9v+WK0kj7gc7x6LOJ8HVGGDrrWekYdJGCShGeV37z39124zgF73OtmlAqoDDZnDTmygr2D4g==}
     dev: false
 
   /type-is/1.6.18:
@@ -607,6 +639,10 @@ packages:
     engines: {node: '>= 0.8'}
     dev: false
 
+  /webidl-conversions/3.0.1:
+    resolution: {integrity: sha1-JFNCdeKnvGvnvIZhHMFq4KVlSHE=}
+    dev: false
+
   /webidl-conversions/7.0.0:
     resolution: {integrity: sha512-VwddBukDzu71offAQR975unBIGqfKZpM+8ZX6ySk8nYhVoo5CYaZyzt3YBvYtRtO+aoGlqxPg/B87NGVZ/fu6g==}
     engines: {node: '>=12'}
@@ -618,4 +654,11 @@ packages:
     dependencies:
       tr46: 3.0.0
       webidl-conversions: 7.0.0
+    dev: false
+
+  /whatwg-url/5.0.0:
+    resolution: {integrity: sha1-lmRU6HZUYuN2RNNib2dCzotwll0=}
+    dependencies:
+      tr46: 0.0.3
+      webidl-conversions: 3.0.1
     dev: false
