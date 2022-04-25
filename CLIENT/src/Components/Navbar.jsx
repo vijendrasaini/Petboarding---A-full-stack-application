@@ -20,9 +20,8 @@ export const Navbar = () => {
     const { auth } = useSelector(store => store)
     const dispatch = useDispatch()
     const navigate = useNavigate()
-    const baseUrl = `https://vijendra-petboard-mini-app-vijendrasaini.vercel.app`
     function signIn() {
-        window.location.href = baseUrl + "/signin"
+        navigate('/signin')
     }
     function logOut(){
         localStorage.removeItem('token')

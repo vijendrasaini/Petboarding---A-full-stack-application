@@ -41,7 +41,7 @@ export const Home = () => {
     }
     function handleSearch(searchText){
         const url = baseUrl + `/pethouses?search=${searchText}`
-        dispatch(setData(url))
+        dispatch(setData(url,true))
     }
     function debounce(e){
         console.log("seaching")
@@ -135,7 +135,7 @@ export const Home = () => {
                             <TableCell>{petHouse?.overview.costPerDay}</TableCell>
                             <TableCell>{petHouse?.overview.verified ? "Verified" : "Not Verified"}</TableCell>
                             <TableCell>{petHouse?.overview.rating}</TableCell>
-                            <TableCell><Link to={`/listing/${petHouse?.id}`} style={{ fontWeight: "bold" }}>Know More</Link></TableCell>
+                            <TableCell><Link to={`/listing/${petHouse?._id}`} style={{ fontWeight: "bold" }}>Know More</Link></TableCell>
                         </TableRow>)}
                     </TableBody>
                 </Table>
@@ -159,5 +159,11 @@ export const Home = () => {
                 /> */}
             </Stack>
         </>
-    ) : <CircularProgress />
+    ) : <Stack 
+    direction={"row"}
+    justifyContent = {"center"}
+    alignItems = {"center"}
+    sx={{  height : '100vh'}}>
+        <CircularProgress />
+    </Stack>
 }
