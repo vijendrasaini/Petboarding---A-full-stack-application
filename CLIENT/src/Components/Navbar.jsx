@@ -21,7 +21,11 @@ export const Navbar = () => {
     const dispatch = useDispatch()
     const navigate = useNavigate()
     function signIn() {
-        navigate('/signin')
+        // console.log("INside func")
+        navigated('/account')
+        // navigate('/listing/create')
+        // location.href = '/signin'
+        // console.log("-------->INside func")
     }
     function logOut(){
         localStorage.removeItem('token')
@@ -51,7 +55,7 @@ export const Navbar = () => {
                                 <Link to='' style={{ color: "white", fontSize: 20, textDecoration: "none" }}>
                                     {
                                         !auth ? <>
-                                            <Button variant="contained" color='success' onClick={signIn}>Login</Button>
+                                            <Link style={{ background : "green", color : "white", padding : "6px 15px", textDecoration : "none", borderRadius : "10px", fontWeight : 500}} to="/account">Login</Link>
                                         </>
                                             :
                                             <PopupState variant="popover" popupId="demo-popup-menu">

@@ -30,7 +30,7 @@ export const Account = () => {
         setUser({ ...user, [name] : value})
     }
     const signIn = async ()=>{
-        const url = baseUrl + `signin`
+        const url = baseUrl + `/signin`
         const response = await fetch(url,{
             method : "POST",
             body : JSON.stringify(user),
